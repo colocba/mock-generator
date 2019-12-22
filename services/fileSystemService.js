@@ -31,7 +31,7 @@ const saveMocksInFileSystem = (jsonMocks, fileName) => {
 }
 
 const setNewPathOnIndexFile = (fileName) => {
-    const rootPath = __dirname + '/../../mockapi/src/index.js';
+    const rootPath = __dirname + '/../../../../mockapi/src/index.js';
     console.log(fileName)
     replace({
         regex: "import defaultSurvey from[^\n]+",
@@ -43,7 +43,7 @@ const setNewPathOnIndexFile = (fileName) => {
 }
 
 const createFile = (mock, fileName) => {
-    const rootPath = __dirname + '/../../mockapi/src/data';
+    const rootPath = __dirname + '/../../../../mockapi/src/data';
     const updatedPath = rootPath + `/${fileName}.json`;
     const mockString = JSON.stringify(mock);
     writeFile(updatedPath, mockString, (err, file) => {
@@ -56,7 +56,7 @@ const createFile = (mock, fileName) => {
 }
 
 const getFolderNames = () => {
-    const rootPath = __dirname + '/../../mockapi/src/data';
+    const rootPath = __dirname + '/../../../../mockapi/src/data';
     try {
         const dirs = readdirSync(rootPath)
                         .filter(f => statSync(join(rootPath, f))
