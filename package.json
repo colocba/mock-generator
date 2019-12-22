@@ -1,15 +1,14 @@
 {
-  "name": "axios-trial",
+  "name": "toluna-mock-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "Mock generator for testing Toluna surveys.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Amir Baum",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.0",
     "inquirer": "^7.0.0",
     "node-fetch": "^2.6.0",
     "puppeteer": "^2.0.0",
