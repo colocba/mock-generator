@@ -37,7 +37,7 @@ const handleAnswers = async (answers) => {
     const jsonMocks = await getJsonMocks(url);
     const fileNameWithFolder = folder !== "data" ? folder + "/" + fileName : fileName;
     saveMocksInFileSystem(jsonMocks, fileNameWithFolder);
-    // setNewPathOnIndexFile(fileNameWithFolder);
+    setNewPathOnIndexFile(fileNameWithFolder);
 }
 
 
