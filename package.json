@@ -13,5 +13,8 @@
     "node-fetch": "^2.6.0",
     "puppeteer": "^2.0.0",
     "replace": "^1.1.1"
+  },
+  "bin": {
+    "mock": "./index.js"
   }
 }
