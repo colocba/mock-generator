@@ -1,6 +1,6 @@
 {
   "name": "toluna-mock-generator",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Mock generator for testing Toluna surveys.",
   "main": "index.js",
   "scripts": {
