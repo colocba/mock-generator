@@ -11,7 +11,7 @@
   "dependencies": {
     "inquirer": "^7.0.0",
     "node-fetch": "^2.6.0",
-    "puppeteer": "^2.0.0",
+    "puppeteer-core": "^2.0.0",
     "replace": "^1.1.1"
   },
   "bin": {
