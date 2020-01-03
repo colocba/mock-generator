@@ -7,7 +7,7 @@ const getJsonMocks = async (url) => {
 }
 
 const getAllUrls = async (rootUrl) => {
-    const puppeteer = require('puppeteer');
+    const puppeteer = require('puppeteer-core');
     const urls = [];
     const currentPath = getChromeExecutablePathByOS();
     const browser = await puppeteer.launch({executablePath: currentPath}).catch(err => console.log(err));
