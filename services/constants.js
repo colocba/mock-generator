@@ -4,7 +4,7 @@ const OPERATING_SYSTEMS = {
 };
 
 const CHROME_PATHS = {
-    WINDOWS: 'C:\Program Files (x86)\Google\Chrome\Application\chrome.exe',
+    WINDOWS: 'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe',
     MACOS: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome'
 };
 
